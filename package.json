@@ -1,0 +1,16 @@
+{
+  "name": "mahameru-template-minimal-typescript",
+  "title": "Minimal TypeScript",
+  "description": "Minimal TypeScript template for MahameruJS",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mahameru dev",
+    "build": "mahameru build",
+    "start": "mahameru start"
+  },
+  "repository": "github:mahamerujs/mahameru-template-minimal-typescript",
+  "keywords": [],
+  "author": "Bintan <hello@bintvn.co>",
+  "license": "ISC"
+}
