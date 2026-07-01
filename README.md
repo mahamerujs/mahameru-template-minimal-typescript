@@ -8,7 +8,7 @@ For easier setup, you can use the [create-mahameru](https://github.com/bintan/cr
 npm create mahameru@latest
 ```
 
-Then choose the "Minimal TypeScript" template.
+Then choose the **Minimal TypeScript** template.
 
 ## Manual Setup
 
