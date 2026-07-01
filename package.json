@@ -12,5 +12,12 @@
   "repository": "github:mahamerujs/mahameru-template-minimal-typescript",
   "keywords": [],
   "author": "Bintan <hello@bintvn.co>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mahameru": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3"
+  }
 }
