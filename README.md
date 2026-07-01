@@ -24,12 +24,12 @@ Global Dependencies:
 
 Dependencies:
 
-- [MahameruJS](https://www.npmjs.com/package/mahameru)
+- [mahameru](https://www.npmjs.com/package/mahameru)
 
 Development Dependencies:
 
 - [@types/node](https://www.npmjs.com/package/@types/node)
-- [TypeScript](https://www.npmjs.com/package/typescript)
+- [typescript](https://www.npmjs.com/package/typescript)
 
 ## Installation
 Install [@mahameru/cli](https://www.npmjs.com/package/@mahameru/cli) as global dependencies:
@@ -41,7 +41,7 @@ npm install -g @mahameru/cli
 Install project dependencies:
 
 ```bash
-npm install MahameruJS
+npm install mahameru
 ```
 
 ```bash
