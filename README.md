@@ -41,11 +41,7 @@ npm install -g @mahameru/cli
 Install project dependencies:
 
 ```bash
-npm install mahameru
-```
-
-```bash
-npm install -D @types/node typescript
+npm install
 ```
 
 ## Running the Project
