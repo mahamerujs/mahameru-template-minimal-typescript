@@ -2,7 +2,7 @@
   "name": "mahameru-template-minimal-typescript",
   "title": "Minimal TypeScript",
   "description": "Minimal TypeScript template for MahameruJS",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
