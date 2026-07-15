@@ -1,9 +1,16 @@
-import type { MahameruMiddleware, ProtectedRoute } from 'mahameru';
+import { MahameruResponse, type MahameruMiddleware, type ProtectedRoute } from 'mahameru';
 
 export const protectedRoutes: ProtectedRoute = [];
 
-const middleware: MahameruMiddleware = async (_container, _isProtectedRoute, next) => {
+const middleware: MahameruMiddleware = async (_container, isProtectedRoute, next) => {
     try {
+        if (isProtectedRoute) {
+            // Add authentication logic here
+            // Then return a MahameruResponse instance if authentication fails
+
+            return MahameruResponse.json({ error: 'Unauthorized' }, { status: 401 });
+        }
+
         return await next();
     } catch (error) {
         throw error;

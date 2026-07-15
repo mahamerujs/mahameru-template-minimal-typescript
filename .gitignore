@@ -1,9 +1,6 @@
 .mahameru/
 dist/
 node_modules/
-.env
-.env.*
-!.env.example
 .mahameru.zip
 mahameru.d.ts
 package-lock.json
