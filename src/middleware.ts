@@ -8,7 +8,7 @@ const middleware: MahameruMiddleware = async (_container, isProtectedRoute, next
             // Add authentication logic here
             // Then return a MahameruResponse instance if authentication fails
 
-            return MahameruResponse.json({ error: 'Unauthorized' }, { status: 401 });
+            return MahameruResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
         }
 
         return await next();
