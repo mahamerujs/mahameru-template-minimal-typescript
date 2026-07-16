@@ -1,6 +1,6 @@
 import { mahameruConfig } from 'mahameru'
 
-export default mahameruConfig(context => {
+export default mahameruConfig(() => {
     return {
         trailingSlash: false
     }
