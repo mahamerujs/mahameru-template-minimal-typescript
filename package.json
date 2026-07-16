@@ -16,7 +16,7 @@
   "author": "Bintan <hello@bintvn.co>",
   "license": "ISC",
   "dependencies": {
-    "mahameru": "^0.0.36"
+    "mahameru": "^0.0.37"
   },
   "devDependencies": {
     "@types/node": "^26.0.1",
