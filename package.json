@@ -16,10 +16,13 @@
   "author": "Bintan <hello@bintvn.co>",
   "license": "ISC",
   "dependencies": {
-    "mahameru": "^0.0.31"
+    "mahameru": "^0.0.32"
   },
   "devDependencies": {
     "@types/node": "^26.0.1",
     "typescript": "^6.0.3"
+  },
+  "allowScripts": {
+    "mahameru": true
   }
 }
