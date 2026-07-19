@@ -1,14 +1,14 @@
-import { MahameruResponse, type MahameruMiddleware, type ProtectedRoute } from 'mahameru';
+import { MagmaResponse, type MagmaMiddleware, type ProtectedRoute } from '@mahameru/magma';
 
 export const protectedRoutes: ProtectedRoute = [];
 
-const middleware: MahameruMiddleware = async (_container, isProtectedRoute, next) => {
+const middleware: MagmaMiddleware = async ({ isProtectedRoute }, next) => {
     try {
         if (isProtectedRoute) {
             // Add authentication logic here
-            // Then return a MahameruResponse instance if authentication fails
+            // Then return a MagmaResponse instance if authentication fails
 
-            return MahameruResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
+            return MagmaResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
         }
 
         return await next();

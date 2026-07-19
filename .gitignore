@@ -1,4 +1,5 @@
 .mahameru/
+.types/
 dist/
 node_modules/
 .mahameru.zip

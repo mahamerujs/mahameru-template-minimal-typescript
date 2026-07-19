@@ -1,8 +1,8 @@
-import { type RouteHandler, MahameruResponse } from 'mahameru'
+import { type RouteHandler, MagmaResponse } from '@mahameru/magma';
 
 export const GET: RouteHandler = () => {
-    return MahameruResponse.json({
+    return MagmaResponse.json({
         success: true,
         message: mahameruEnv.WELCOME_MESSAGE
-    })
+    });
 }

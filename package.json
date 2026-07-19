@@ -6,7 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "mahameru dev",
+    "dev": "mahameru dev:test",
     "build": "mahameru build",
     "start": "mahameru start",
     "generate": "mahameru generate"
@@ -16,13 +16,16 @@
   "author": "Bintan <hello@bintvn.co>",
   "license": "ISC",
   "dependencies": {
-    "mahameru": "^0.0.37"
+    "@mahameru/magma": "^0.0.2",
+    "mahameru": "^0.0.39"
   },
   "devDependencies": {
     "@types/node": "^26.0.1",
     "typescript": "^6.0.3"
   },
   "allowScripts": {
+    "@mahameru/diatrema": true,
+    "@mahameru/magma": true,
     "mahameru": true
   }
 }
