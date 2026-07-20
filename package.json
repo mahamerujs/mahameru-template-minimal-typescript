@@ -16,8 +16,8 @@
   "author": "Bintan <hello@bintvn.co>",
   "license": "ISC",
   "dependencies": {
-    "@mahameru/magma": "^0.0.4",
-    "mahameru": "^0.0.40"
+    "@mahameru/magma": "^0.0.5",
+    "mahameru": "^0.0.41"
   },
   "devDependencies": {
     "@types/node": "^26.0.1",
